@@ -1,0 +1,1 @@
+module.exports = require('./build/Release/sample-addon.node');

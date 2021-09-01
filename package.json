@@ -1,0 +1,23 @@
+{
+  "name": "sample-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && npm run configure",
+    "clean": "rimraf ./build && npm run configure",
+    "configure": "./node_modules/.bin/node-gyp configure",
+    "build-debug": "./node_modules/.bin/node-gyp build --debug",
+    "build-release": "./node_modules/.bin/node-gyp build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.15.0",
+    "node-gyp": "^8.2.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

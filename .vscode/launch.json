@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch hello world sample",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/samples/helloWorld.js",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Cpp sample for hello world",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "C:/Program Files/nodejs/node.exe",
+            "args": ["samples/helloWorld.js"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
