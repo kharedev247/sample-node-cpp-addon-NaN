@@ -1,5 +1,5 @@
-# sample-node-cpp-addon
-_Sample project to start with node c++ addons development_
+# sample-node-cpp-addon using NaN
+_Sample project to start with node c++ addons development with NaN_
 
 ### Setup:
 * npm run setup
